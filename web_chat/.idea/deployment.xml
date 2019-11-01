@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="AWS">
+    <serverData>
+      <paths name="AWS">
+        <serverdata>
+          <mappings>
+            <mapping deploy="web_chat" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ubuntu@ec2-13-58-253-94.us-east-2.compute.amazonaws.com:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ubuntu/web_chat" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

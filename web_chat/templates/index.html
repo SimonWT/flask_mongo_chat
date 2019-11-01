@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>w3bch4t</title>
+</head>
+<body>
+
+<div style="border: 2px solid black; width: 200px; margin-bottom: 20px; padding: 10px;">
+    {% for message in chat %}
+       {% for author, text in message.items() %}
+           <p><span style="font-weight: bold;">{{author}} :</span> {{text}}</p>
+       {% endfor %}
+    {% endfor %}
+</div>
+<form method="post" >
+    <input type="text" placeholder="nickname" name="author"/>
+    <input type="text" placeholder="write message" name="text"/>
+    <input type = "submit" value = "Send" />
+</form>
+<p>Press F5, to see new messages</p>
+
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
+</body>
+</html>
