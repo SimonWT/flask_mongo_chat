@@ -1,8 +1,3 @@
----
-title: 'Mongo Replica Set based Chat'
-disqus: hackmd
----
-
 Mongo Replica Set based Chat
 ===
 ![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
